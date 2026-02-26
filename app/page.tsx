@@ -21,7 +21,7 @@ export default function Home() {
                 playsInline
                 preload="metadata"
               >
-                <source src="/media/aubria-demo.mp4" type="video/mp4" />
+                <source src="/media/ai_web.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
@@ -48,21 +48,13 @@ export default function Home() {
 
           <p className="mt-4 italic text-white/70">✨ Smart. Simple. Auburn-built.</p>
 
-          <div className="mt-8 flex gap-3">
-            <Link
-              href="/request"
-              className="bg-[#E87722] hover:bg-[#cf6b1f] px-7 py-3 rounded-xl font-semibold"
-            >
-              Request a Keynote →
-            </Link>
-
-            <Link
-              href="/request"
-              className="bg-white/10 hover:bg-white/15 px-7 py-3 rounded-xl font-semibold ring-1 ring-white/15"
-            >
-              Open Form
-            </Link>
-          </div>
+          <div className="mt-6">
+    <Link href="/request">
+      <button className="bg-[#E87722] hover:bg-[#cf6b1f] text-white font-semibold px-8 py-3 rounded-xl transition">
+        Get Started 
+      </button>
+    </Link>
+  </div>
         </section>
 
       </div>
